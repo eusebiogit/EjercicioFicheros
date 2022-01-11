@@ -55,15 +55,6 @@ public class EjercicioFicheros {
                     boolean asientosComprados[][] = new boolean[filas][4];
                     iniciarAsientos(asientosComprados);
                     for (int i = 0; i < billetesComprar; i++) {
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
                         System.out.println("Indique la fila del asiento" + i + " a comprar (Valor en rango) [0, 4]");
                         fila = sc.nextInt();
                         System.out.println("Indique la columna del asiento" + i + " a comprar [0, " + filas + "]");
