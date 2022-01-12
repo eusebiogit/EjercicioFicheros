@@ -109,7 +109,7 @@ public class EjercicioFicheros {
     }
 
     private static boolean aplicarDescuento(boolean[][] asientosComprados) {
-        boolean aplicarDescuento = true;
+        boolean aplicarDescuento = false;
         for (int i = 0; i < asientosComprados.length && !aplicarDescuento; i++) {
             aplicarDescuento = true;
             for (int j = 0; j < asientosComprados[0].length && aplicarDescuento; j++) {
